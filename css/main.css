@@ -1,0 +1,83 @@
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.grid {
+  background: white;
+  margin: 0 0 20px 0;
+  width: 100vw;
+}
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*='col-'] {
+  float: left;
+  padding-right: 20px;
+  padding: 20px 0 20px 20px;
+}
+[class*='col-'] [class*='col-']:last-of-type {
+  padding-right: 20px;
+}
+
+.col-0 {
+  width: 5vw;
+}
+
+.col-1 {
+  width: 15vw;
+}
+
+.col-2 {
+  width: 25vw;
+}
+
+.col-3 {
+  width: 35vw;
+}
+
+.col-4 {
+  width: 45vw;
+}
+
+.col-5 {
+  width: 55vw;
+}
+
+.col-6 {
+  width: 65vw;
+}
+
+.col-7 {
+  width: 75vw;
+}
+
+.col-8 {
+  width: 85vw;
+}
+
+.col-9 {
+  width: 95vw;
+}
+
+.col-10 {
+  width: 100vw;
+}
+
+body h1, body h2 {
+  font-family: "Lobster", cursive;
+}
+body a, body p {
+  font-family: "Raleway", sans-serif;
+}
+
+.module {
+  padding: 20px;
+  background: rgba(70, 255, 200, 0.3);
+}
+
+/*# sourceMappingURL=main.css.map */
